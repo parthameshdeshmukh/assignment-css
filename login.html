@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Discover Japan</title>
+  <meta name="description" content="Access your Discover Japan account to review your travel itineraries, packages, and bookings.">
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="login-body" style="background-image: url('https://images.unsplash.com/photo-1540959733332-eab4deceeaf7?auto=format&fit=crop&w=1920&q=80');">
+
+  <!-- ==========================================================
+       DARK OVERLAY FOR LEGIBILITY
+       ========================================================== -->
+  <div class="login-overlay"></div>
+
+  <!-- ==========================================================
+       GLASSMORPHISM CARD
+       ========================================================== -->
+  <div class="login-card">
+    <div class="login-logo">
+      <span>⛩️</span> Discover Japan
+    </div>
+    <div class="login-welcome">Where Tradition Meets Tomorrow</div>
+
+    <form action="#" method="POST" onsubmit="return false;" class="login-form">
+      <!-- Username / Email -->
+      <div class="form-group">
+        <label for="username">Username or Email</label>
+        <input 
+          type="text" 
+          id="username" 
+          class="form-control login-control" 
+          placeholder="Enter username" 
+          required
+        >
+      </div>
+
+      <!-- Password -->
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input 
+          type="password" 
+          id="password" 
+          class="form-control login-control" 
+          placeholder="Enter password" 
+          required
+        >
+      </div>
+
+      <!-- Remember Me & Forgot Password -->
+      <div class="login-options">
+        <label class="remember-me">
+          <input type="checkbox" id="remember">
+          <span>Remember Me</span>
+        </label>
+        <a href="#" class="forgot-password">Forgot Password?</a>
+      </div>
+
+      <!-- Login Button -->
+      <button type="submit" class="btn login-btn">Login</button>
+    </form>
+
+    <!-- Create Account -->
+    <div class="login-footer">
+      <span>Don't have an account?</span>
+      <a href="#">Create Account</a>
+    </div>
+
+    <!-- Back to Home Link -->
+    <a href="index.html" class="back-home-link">
+      <i class="fa-solid fa-arrow-left"></i> Back to Home
+    </a>
+  </div>
+
+  <!-- Floating Audio Player (Pure HTML/CSS) -->
+  <div class="floating-audio-player">
+    <div class="audio-title-box">
+      <i class="fa-solid fa-compact-disc"></i>
+      <div style="display: flex; flex-direction: column;">
+        <span class="audio-title-text">Discover Japan</span>
+        <span class="audio-subtitle-text">Theme Song</span>
+      </div>
+    </div>
+    <audio src="Ytmp3.gg_YouTube_Media_5p1-DISv3MM_009_128k.mp3" controls loop autoplay></audio>
+  </div>
+  <script src="audio-player.js" defer></script>
+</body>
+</html>

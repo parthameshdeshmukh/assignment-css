@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Discover Japan</title>
+  <meta name="description" content="Reach out to the Discover Japan travel specialists. Get custom itineraries, support, and details for your luxury Japanese vacation.">
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+
+  <!-- NAVIGATION BAR (COMMON) -->
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span>⛩️</span> Discover Japan
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="destination.html" class="nav-link">Destinations</a></li>
+        <li><a href="packages.html" class="nav-link">Packages</a></li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        <li><a href="login.html" class="btn btn-primary" style="padding: 8px 20px; font-size: 0.8rem;">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+       <!-- INNER HERO BANNER -->
+      
+  <header class="hero hero-inner" style="background-image: url('images/hero_japan.png');">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Contact Us</h1>
+    </div>
+  </header>
+
+
+       <!-- CONTACT GRID SECTION (3 COLUMNS) -->
+      
+  <section class="contact-section section-padding">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-desc">Plan your trip or ask a question. Our travel experts are here to build your dream vacation.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Column 1: Company Logo / Brand -->
+        <div class="contact-col-logo">
+          <div class="logo">
+            <span>⛩️</span> Discover Japan
+          </div>
+          <p>Where Tradition Meets Tomorrow</p>
+        </div>
+
+        <!-- Column 2: Contact Details -->
+        <div class="contact-col-details">
+          <h3>Contact Details</h3>
+          
+          <div class="contact-info-item">
+            <div class="contact-info-title">Phone Support</div>
+            <div class="contact-info-text">+81 3-1234-5678</div>
+          </div>
+          
+          <div class="contact-info-item">
+            <div class="contact-info-title">Email Address</div>
+            <div class="contact-info-text">info@discoverjapan.com</div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-info-title">Office Address</div>
+            <div class="contact-info-text">1-1 Chiyoda, Chiyoda City, Tokyo 100-8111, Japan</div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-info-title">Working Hours</div>
+            <div class="contact-info-text">Monday - Friday: 9:00 AM - 6:00 PM (JST)</div>
+          </div>
+        </div>
+
+        <!-- Column 3: Embedded Google Map -->
+        <div class="contact-col-map">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8280303861214!2d139.7524439152554!3d35.6894073801943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c0c0b610c3b%3A0x8f3c7a0c8b36cd33!2sImperial%20Palace!5e0!3m2!1sen!2sjp!4v1655000000000!5m2!1sen!2sjp" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- CONTACT FORM -->
+       
+      <div class="contact-form-container">
+        <h3 class="contact-form-title">Send Us a Message</h3>
+        <form action="#" method="POST" onsubmit="return false;" class="contact-form">
+          <div class="form-grid">
+            <!-- Name -->
+            <div class="form-group">
+              <label for="form-name">Name</label>
+              <input type="text" id="form-name" class="form-control" placeholder="Your Full Name" required>
+            </div>
+            
+            <!-- Email -->
+            <div class="form-group">
+              <label for="form-email">Email</label>
+              <input type="email" id="form-email" class="form-control" placeholder="Your Email Address" required>
+            </div>
+
+            <!-- Phone -->
+            <div class="form-group">
+              <label for="form-phone">Phone</label>
+              <input type="tel" id="form-phone" class="form-control" placeholder="Your Phone Number">
+            </div>
+
+            <!-- Subject -->
+            <div class="form-group">
+              <label for="form-subject">Subject</label>
+              <input type="text" id="form-subject" class="form-control" placeholder="Inquiry Subject" required>
+            </div>
+
+            <!-- Message -->
+            <div class="form-group full-width">
+              <label for="form-message">Message</label>
+              <textarea id="form-message" class="form-control" placeholder="Write your message here..." required></textarea>
+            </div>
+          </div>
+          
+          <button type="submit" class="btn btn-primary contact-form-btn">Submit Inquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+       <!-- FOOTER (COMMON)  -->
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: About -->
+        <div class="footer-col footer-about">
+          <a href="index.html" class="logo" style="color: var(--color-white);">
+            <span>⛩️</span> Discover Japan
+          </a>
+          <p>We weave a permanent connection between you and Japan by crafting luxury tours that balance age-old traditions and future tech.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destination.html">Destinations</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Popular Places -->
+        <div class="footer-col">
+          <h3>Top Cities</h3>
+          <ul class="footer-links">
+            <li><a href="destination.html">Tokyo</a></li>
+            <li><a href="destination.html">Kyoto</a></li>
+            <li><a href="destination.html">Osaka</a></li>
+            <li><a href="destination.html">Nara</a></li>
+            <li><a href="destination.html">Hakone</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact info -->
+        <div class="footer-col footer-contact">
+          <h3>Contact Info</h3>
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>1-1 Chiyoda, Chiyoda City, Tokyo 100-8111, Japan</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <span>+81 3-1234-5678</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <span>info@discoverjapan.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Discover Japan Travels. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Audio Player (Pure HTML/CSS) -->
+  <div class="floating-audio-player">
+    <div class="audio-title-box">
+      <i class="fa-solid fa-compact-disc"></i>
+      <div style="display: flex; flex-direction: column;">
+        <span class="audio-title-text">Discover Japan</span>
+        <span class="audio-subtitle-text">Theme Song</span>
+      </div>
+    </div>
+    <audio src="Ytmp3.gg_YouTube_Media_5p1-DISv3MM_009_128k.mp3" controls loop autoplay></audio>
+  </div>
+  <script src="audio-player.js" defer></script>
+</body>
+</html>
